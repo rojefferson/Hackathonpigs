@@ -8,6 +8,8 @@ namespace hackaPigs.Controllers
 {
     public class HomeController : Controller
     {
+
+       
         public ActionResult Index()
         {
             ViewBag.Message = "Welcome to ASP.NET MVC!";
@@ -18,7 +20,7 @@ namespace hackaPigs.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
-
+   
             return View();
         }
 
